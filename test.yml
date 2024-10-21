@@ -1,1 +1,7 @@
-
+---
+- name: Gather information
+  hosts: all
+  tasks:
+    - debug: 
+        msg: "Hello"
+  
